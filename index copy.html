@@ -205,7 +205,7 @@
                     <div class="col-lg-7">
                         <div class="padding-30px">
                             <h3 class="padding-bottom-15px">Place A Order</h3>
-                            <form action="https://formsubmit.co/willisp.samkange@gmail.com" method="POST"  >
+                            <form action="https://formsubmit.co/willisp.samkange@gmail.com" method="POST" id="Order"  >
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label>Full Name</label>
@@ -213,15 +213,25 @@
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Email</label>
-                                        <input type="email" class="form-control" name="email" id="inputEmail44" placeholder="Email" required>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label>Full Name</label>
+                                        <input type="text" class="form-control" name="name" id="fullname" placeholder="Name" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label>Message</label>
                                     <textarea class="form-control" name="message" id="exampleFormControlTextarea11" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px" value="submit">Send </button>
                             </form>
+                            <button type="submit" form="Order" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px" value="Submit">Send</button>
                         </div>
                     </div>
                 </div>
